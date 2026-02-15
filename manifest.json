@@ -1,8 +1,20 @@
 {
-  "name": "Narifftraders Wholesale",
-  "short_name": "Narifftraders",
-  "start_url": "/Narifftraders.github.io/",
+  "name": "Nariff Traders Wholesale",
+  "short_name": "Nariff",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#FFF8F0",
-  "theme_color": "#C67C2E"
+  "theme_color": "#C67C2E",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
