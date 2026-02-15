@@ -1,0 +1,8 @@
+{
+  "name": "Narifftraders Wholesale",
+  "short_name": "Narifftraders",
+  "start_url": "/Narifftraders.github.io/",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#C67C2E"
+}
