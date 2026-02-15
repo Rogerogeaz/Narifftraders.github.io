@@ -489,7 +489,6 @@ async function submitOrder(proofURL){
   const name = document.getElementById("cname").value.trim();
   const phone = document.getElementById("cphone").value.trim();
   const location = document.getElementById("clocation").value.trim();
-  const transaction = document.getElementById("ctrans").value.trim();
 
   const order = {
     name,
@@ -620,7 +619,6 @@ div.innerHTML=`
   <div><b>${o.name}</b> (${o.phone})</div>
   <div><b>Ordered:</b> ${orderDate}</div>
   <div>Total: Ksh ${o.total}</div>
-  <div>Transaction: ${o.transaction}</div>
 
   ${o.proof ? `
     <div style="margin-top:8px">
@@ -646,4 +644,4 @@ div.innerHTML=`
 loadProducts();
 </script>
 </body>
-</html>
+  </html>
